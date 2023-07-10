@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.progress-bar {
+  width: 20%;
+  height: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #00a8ff;
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+.c2e4ff {
+  color: #37a5ff;
+}
