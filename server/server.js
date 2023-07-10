@@ -17,7 +17,7 @@ app.get('/image/:filename', (req, res) => {
 });
 
 app.use(express.static(path.join(__dirname, '../client/dist')))
-app.get('*', (req, res)=> res.sendFile(path.join(__dirname, '../client/dist/index.html')))
+app.get('/', (req, res)=> res.sendFile(path.join(__dirname, '../client/dist/index.html')))
 
 
 console.log(path.join(path.resolve(), '../client/dist/index.html'));
